@@ -63,15 +63,12 @@ function Player() {
       return !prev;
     });
     animationRef.current = requestAnimationFrame(sliderAnimation);
-    // setTimeout(() => {
-    //   setPlayAll(false);
-    // }, 17 * 1000);
   };
 
   const handleStop = () => {
     setPlay(false);
     setStop(true);
-
+    setCurrentTime(0);
     cancelAnimationFrame(animationRef.current);
     slider.current.value = 0;
   };
