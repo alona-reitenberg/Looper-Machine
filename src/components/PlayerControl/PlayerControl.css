@@ -1,0 +1,52 @@
+.playerControl__container {
+  background: #f1f2f7;
+  position: fixed;
+  color: #656667;
+  background-image: linear-gradient(to bottom, #ebecec, #cfd0d0);
+  bottom: 0;
+  left: 50%;
+  transform: translate(-50%);
+  display: flex;
+  justify-content: center;
+  border: 1px solid #9da0a1;
+  border-top-left-radius: 7px;
+  border-top-right-radius: 7px;
+  box-shadow: inset 0px 1px 0px 0px #fff;
+  min-width: 200px;
+  box-shadow: 0px 0px 20px 0px #bfbfbf;
+}
+
+.icon {
+  /* padding: 15px 20px 10px;
+  font-size: 22px; */
+  padding: 10px 15px 7px;
+  font-size: 16px;
+  border-left: 1px solid #fff;
+  border-right: 1px solid #b0b1b1;
+  text-shadow: 0px 1px 0px #f4f5f6;
+  border-top-left-radius: 7px;
+}
+
+.icon:hover {
+  background: #c7c8c8;
+  box-shadow: inset 0px 0px 15px 2px #a0a1a1;
+  transition: 0.4s;
+}
+
+.active {
+  background: #c7c8c8;
+  box-shadow: inset 0px 0px 15px 2px #a0a1a1;
+  transition: 0.4s;
+}
+
+.time {
+  /* padding: 15px 20px 10px;
+  font-size: 22px; */
+  padding: 10px 15px 0px;
+  font-size: 16px;
+  border-left: 1px solid #fff;
+  border-right: 1px solid #b0b1b1;
+  text-shadow: 0px 1px 0px #f4f5f6;
+  border-top-left-radius: 7px;
+  font-size: 14px;
+}

@@ -1,0 +1,49 @@
+.player__container {
+  position: relative;
+  overflow: hidden;
+}
+
+.slider {
+  opacity: 1;
+  position: absolute;
+  top: 0;
+  right: 250px;
+  -webkit-appearance: none;
+  width: 47%;
+  height: 395px;
+  background: transparent;
+  z-index: 10;
+}
+
+.player__range_inactive {
+  opacity: 0.5;
+  transition: 0.2s ease;
+}
+
+.slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+}
+
+.slider:focus {
+  outline: none;
+}
+
+.slider::-ms-track {
+  width: 100%;
+  cursor: pointer;
+  background: transparent;
+  border-color: transparent;
+  color: transparent;
+}
+
+.slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  height: 450px;
+  width: 2px;
+  background: rgb(225, 0, 255);
+  box-shadow: rgba(240, 46, 170, 0.4) -5px 5px,
+    rgba(240, 46, 170, 0.3) -10px 10px, rgba(240, 46, 170, 0.2) -15px 15px,
+    rgba(240, 46, 170, 0.1) -20px 20px, rgba(240, 46, 170, 0.05) -25px 25px;
+  cursor: pointer;
+  margin-top: 0;
+}
