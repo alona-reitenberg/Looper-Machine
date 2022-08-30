@@ -5,7 +5,7 @@ function App() {
   return (
     <div className="app">
       <div className="app__container">
-        <h1 className="title">Moveo Loop Machine</h1>
+        <h1 className="title">Looper Machine</h1>
         <Player />
       </div>
     </div>

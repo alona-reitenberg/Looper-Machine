@@ -7,7 +7,8 @@ function Sound({ sound, name, play, stop, loop }) {
   const [mute, setMute] = useState(false);
 
   const toggleMute = () => setMute((prev) => !prev);
-
+  //after render the component with the toggleMute you need to start this hook
+  //and play/stop according to the current play /stop value.
   useEffect(() => {
     if (play && !stop) {
       sound.play();
