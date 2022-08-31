@@ -9,7 +9,7 @@
 
 In this project i used React JS
 
-## Run this application
+## How to run this project?
 
 Use the command `npm start` to run this.
 
