@@ -7,7 +7,7 @@
 
 ## Technologies
 
-In this project i used React
+In this project i used React JS
 
 ## Run this application
 
