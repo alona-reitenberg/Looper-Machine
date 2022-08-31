@@ -5,7 +5,7 @@
 
 ## Description
 In this project I create a looper machine with audio file using ReactJS.
-The looper machine is using different audio files that are played together and each one of them can be muted.
+The looper machine is using different audio files that are played together and each one of them can be muted separately.
 
 I used a different components for each model I’ve create, so the application will be organize and easy to manage. 
 
