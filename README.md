@@ -19,7 +19,7 @@ All of the components are connected tougher so the application will function cor
 
 ## How to run this project?
 
-Use the command `npm i` and then `npm start` to run this.
+Use the command `npm i` and after that `npm start` to run this app.
 
 It will open the URL [http://localhost:3000](http://localhost:3000) in your browser.
 
