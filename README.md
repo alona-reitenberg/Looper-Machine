@@ -1,5 +1,7 @@
 # Looper Machine
-<img width="960" alt="looper" src="https://user-images.githubusercontent.com/112491981/187611817-c5d0c300-ea8f-4ac6-9c48-e7a827dca9a5.PNG">
+
+<img width="603" alt="looper-m" src="https://user-images.githubusercontent.com/112491981/187612793-0f2a5a70-a005-4734-892b-efe7e3e957fd.PNG">
+
 
 ## Description
 
