@@ -2,10 +2,12 @@
 
 <img width="603" alt="looper-m" src="https://user-images.githubusercontent.com/112491981/187612793-0f2a5a70-a005-4734-892b-efe7e3e957fd.PNG">
 
+## Technologies
+
+In used React JS to build this project.
 
 ## Description
-In this project I create a looper machine with audio file using ReactJS.
-The looper machine is using different audio files that are played together and each one of them can be muted separately.
+The looper machine is using different audio files that are played together and each one of them can be muted separately, so that you can customize and playing with the sounds.
 
 I used a different components for each model I’ve create, so the application will be organize and easy to manage. 
 
@@ -14,10 +16,6 @@ Inside the sound list I’ve create 9 rows using sound component that displays t
 
 There is a slider showing the current position of the audio that is synchronized with the time displayed on the control player.
 All of the components are connected tougher so the application will function correctly.
-
-## Technologies
-
-In this project i used React JS
 
 ## How to run this project?
 
